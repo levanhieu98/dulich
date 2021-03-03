@@ -1,0 +1,48 @@
+@font-face {
+    font-family: feather;
+    src: url(../fonts/feather.bin);
+    src: url(../fonts/feather.bin) format("embedded-opentype"),url(../fonts/feather-1.bin) format("woff"),url(../fonts/feather-2.bin) format("truetype"),url(../fonts/feather.svg) format("svg");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Material Design Icons";
+    src: url(../fonts/materialdesignicons-webfont.bin);
+    src: url(../fonts/materialdesignicons-webfont-1.bin) format("embedded-opentype"),url(../fonts/materialdesignicons-webfont-2.bin) format("woff2"),url(../fonts/materialdesignicons-webfont-3.bin) format("woff"),url(../fonts/materialdesignicons-webfont-4.bin) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+[class^=fe-] {
+    font-family: feather!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.fe-maximize-2:before{content:"\e88b"}
+.fe-maximize:before {content: "\e908"}
+.fe-heart:before {content: "\e879"}
+.fe-shopping-cart:before {content: "\e905"}
+.fe-bar-chart-line-:before {content: "\e912"}
+.fe-eye:before {content: "\e86a"}
+.fe-menu:before {content: "\e88f"}
+.fe-user:before {content: "\e8e9"}
+.fe-log-out:before {content: "\e888"}
+.mdi-set,.mdi:before {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.mdi-square-edit-outline::before {content: "\F090C"}
+.mdi-delete::before {content: "\F01B4"}
+.mdi-plus::before{content:"\F0415"}
+.mdi-file-eye-outline::before{content:"\F0DCB"}
+.mdi-chevron-down::before {content: "\F0140"}
